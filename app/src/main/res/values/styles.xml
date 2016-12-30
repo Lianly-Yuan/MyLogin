@@ -1,0 +1,24 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <!-- 状态栏的颜色 -->
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <!-- toolbar的主题-->
+        <item name="toolbarStyle">@style/Toolbar</item>
+    </style>
+    <style name="Toolbar" parent="Widget.AppCompat.Toolbar">
+        <!-- 设置该属性解决空白部分-->
+        <!--<item name="android:layout">@layout/toolbar</item> -->
+        <item name="contentInsetStart">10dp</item>
+        <item name="contentInsetEnd">10dp</item>
+    </style>
+
+
+
+</resources>
